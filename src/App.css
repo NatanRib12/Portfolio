@@ -1,0 +1,13 @@
+.app-container {
+  height: 100%;
+}
+
+.hero-section {
+  width: 100%;
+  height: calc(100vh - 5.2rem);
+  padding: 20px;
+}
+
+.hero-section div {
+  height: 100%;
+}
