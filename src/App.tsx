@@ -1,6 +1,7 @@
 import Introduction from 'components/sections/introduction/introduction'
 import './App.css'
 import Navbar from './components/shared/navbar/navbar'  
+import AboutMeFormation from './components/AboutMe-Formation/AboutMe-Formation'
 function App() {
 
   return (
@@ -11,6 +12,9 @@ function App() {
         </div>
         <div className="hero-section">
           <Introduction/>
+        </div>
+        <div className='AboutMe-container'>
+          <AboutMeFormation></AboutMeFormation>
         </div>
       </div>
     </>

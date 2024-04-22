@@ -1,0 +1,61 @@
+.box{
+    padding: 100px;
+}
+
+.aboutMe-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.aboutMe-text{
+    width: 55%;
+}
+
+.aboutMe-text h1{
+    color: var(--primary);
+    font-size: 50px;
+}
+
+.aboutMe-text p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.aboutMe-habilits{
+    margin-left: 3%;
+    margin-top: 9%;
+    width: 25%;
+}
+
+.aboutMe-habilits h2{
+    text-align: start;
+    color: var(--primary);
+}
+
+.habilit-itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.habilit-item{
+    padding: 10px;
+    background-color: var(--primary);
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.formation-container{
+    width: 100%;
+}
+
+.formation-container h1{
+    margin-left: 76%;
+    color: var(--primary);
+    font-size: 50px;
+}

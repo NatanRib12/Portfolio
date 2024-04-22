@@ -25,13 +25,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 4rem;
 }
 
 .navbar-item {
     font-size: 1rem;
     color: white;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .navbar-item a {
@@ -39,8 +40,9 @@
     color: white;
 }
 
-.navbar-item:hover {
+.navbar-item :hover {
     border-bottom: 2px solid white;
+    transition: 3s;
     /* animation: border-hover 0.2s; */
 }
 
