@@ -3,7 +3,6 @@ import './introduction.css'
 const Introduction: React.FC = () => {
 
     return (
-        <div>
             <div className="hero-container">
                 <div className="hero-photo-container">
                     <div className="hero-photo">
@@ -21,7 +20,6 @@ const Introduction: React.FC = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

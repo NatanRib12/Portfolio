@@ -4,6 +4,8 @@
     width: 100%;
     background-color: var(--primary);
     padding: 0 70px;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar-content {
@@ -38,12 +40,21 @@
 .navbar-item a {
     text-decoration: none;
     color: white;
+    position: relative;
 }
 
-.navbar-item :hover {
-    border-bottom: 2px solid white;
-    transition: 3s;
-    /* animation: border-hover 0.2s; */
+a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+a:hover::before{
+    width: 100%;
 }
 
 .navbar-icons {
@@ -63,12 +74,3 @@
     color: white;
     cursor: pointer;
 }
-
-/* @keyframes border-hover {
-    from {
-        border-bottom-width: 0;
-    }
-    to {
-        border-bottom-width: auto;
-    }
-} */

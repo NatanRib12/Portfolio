@@ -1,7 +1,8 @@
 import Introduction from 'components/sections/introduction/introduction'
 import './App.css'
 import Navbar from './components/shared/navbar/navbar'  
-import AboutMeFormation from './components/AboutMe-Formation/AboutMe-Formation'
+import Aboutme from './components/aboutme/aboutme'
+import Footer from 'components/footer/footer'
 function App() {
 
   return (
@@ -14,7 +15,10 @@ function App() {
           <Introduction/>
         </div>
         <div className='AboutMe-container'>
-          <AboutMeFormation></AboutMeFormation>
+          <Aboutme></Aboutme>
+        </div>
+        <div className='Footer'>
+          <Footer></Footer>
         </div>
       </div>
     </>

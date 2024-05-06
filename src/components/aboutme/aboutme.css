@@ -1,0 +1,126 @@
+::selection{
+    background-color: #E2E3E5;
+    color: #0060FD;
+}
+
+.box{
+     margin: 5rem;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-right{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0060FD;
+}
+
+.text-right{
+    font-size: 22px;
+}
+
+.aboutme-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-left{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0060FD;
+}
+
+.left-habilits{
+    width: 70%;
+}
+
+.itens-habilit{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.item-habilit{
+    padding: 10px 30px 10px 30px;
+    background-color: #0060FD;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: start;
+}
+
+.header-title.reverse{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0060FD;
+    justify-content: end;
+
+}
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before{
+    background-color: #0060FD;
+}
+
+.date-time{
+    color: #0060FD;
+}
+
+.hero-projects{
+    width: 100%;
+}
+
+.hero-projects-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0060FD;
+    margin-top: 1%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-bottom: 1%;
+
+}
+
+.project-img img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.project-title{
+    font-size: 20px;
+    font-weight: bold;
+}

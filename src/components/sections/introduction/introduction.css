@@ -1,8 +1,8 @@
 .hero-container {
     display: flex;
     flex-direction: row;
-    height: 100%;
-    /* justify-content: center; */
+    height: 100vh;
+    margin-top: 6%;
 }
 
 .hero-photo-container {
@@ -62,4 +62,13 @@
     text-align: center;
     font-size: 2.4rem;
     color: white;
+}
+
+@media screen and (min-width: 1350px){
+    .hero-container{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1175px){
 }
