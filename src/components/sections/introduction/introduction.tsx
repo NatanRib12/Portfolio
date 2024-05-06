@@ -7,7 +7,7 @@ const Introduction: React.FC = () => {
                 <div className="hero-photo-container">
                     <div className="hero-photo">
                         <img src="https://avatars.githubusercontent.com/u/80856939?v=4" alt="Natan Santos" />
-                        <p>Desenvolvedor Front e Back-end</p>
+                        <p>Desenvolvedor Full Stack</p>
                     </div>
                 </div>
                 <div className="hero-card-container">
